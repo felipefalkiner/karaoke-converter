@@ -9,8 +9,7 @@ else
 	$mode = $_GET["mode"];
 
 function showDebug($database){
-	// var_dump($database);
-	phpinfo();
+	var_dump($database);
 }
 
 function showCSV($database){
